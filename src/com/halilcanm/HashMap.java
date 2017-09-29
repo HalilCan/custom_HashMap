@@ -127,6 +127,7 @@ public class HashMap<K,V> {
             }
             System.out.println();
         }
+        System.out.println();
         System.out.println("Note: The implementation accepts any primitive data type for both K or V");
     }
 }
