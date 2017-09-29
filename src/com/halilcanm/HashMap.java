@@ -120,6 +120,8 @@ public class HashMap<K,V> {
                 Entry<K,V> current = table[i];
                 while (current != null) {
                     System.out.print("-{" + current.key + "=" + current.value + "}");
+                    previous = current;
+                    current = current.next;
                 }
             }
             System.out.println("Bucket = " + i);
