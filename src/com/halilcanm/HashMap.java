@@ -124,7 +124,7 @@ public class HashMap<K,V> {
                     current = current.next;
                 }
             }
-            System.out.println("Bucket = " + i);
+            System.out.println(" Bucket# = " + i);
         }
     }
 }
