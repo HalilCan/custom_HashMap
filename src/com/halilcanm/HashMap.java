@@ -116,9 +116,13 @@ public class HashMap<K,V> {
     public void quickDraw() {
         for (int i = 0; i < size; i++) {
             if (table[i] != null) {
-                
-                while ()
+                Entry<K,V> previous = null;
+                Entry<K,V> current = table[i];
+                while (current != null) {
+                    System.out.print("-{" + current.key + "=" + current.value + "}");
+                }
             }
+            System.out.println("Bucket = " + i);
         }
     }
 }
