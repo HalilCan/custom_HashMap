@@ -115,6 +115,7 @@ public class HashMap<K,V> {
 
     public void quickDraw() {
         for (int i = 0; i < size; i++) {
+            System.out.print(" Bucket# = " + i + " ");
             if (table[i] != null) {
                 Entry<K,V> previous = null;
                 Entry<K,V> current = table[i];
@@ -124,7 +125,7 @@ public class HashMap<K,V> {
                     current = current.next;
                 }
             }
-            System.out.println(" Bucket# = " + i);
+            System.out.println();
         }
     }
 }
