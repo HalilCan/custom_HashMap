@@ -7,7 +7,7 @@ public class Main {
         System.out.println();
         HashMap<String, Integer> hMap = new HashMap<String, Integer>(4);
 
-        hMap.set("ten", 55);
+        hMap.set("the", 53);
         hMap.set("quick", 52);
         hMap.set("brown", 56);
         hMap.set("fox", 50);
